@@ -6,7 +6,6 @@ const avatar = 'https://avatars.githubusercontent.com/u/118201498?v=4';
 const copy = {
   it: {
     nav: ['Profilo', 'Competenze', 'Progetti', 'Percorso', 'Contatti'],
-    eyebrow: 'Portfolio personale · 2026',
     role: 'Technology. Interaction. Digital Experiences.',
     intro: 'Studio informatica e progetto esperienze digitali, unendo pensiero analitico e attenzione per le persone.',
     scroll: 'Scopri il mio percorso',
@@ -39,10 +38,9 @@ const copy = {
   },
   en: {
     nav: ['About', 'Skills', 'Projects', 'Experience', 'Contact'],
-    eyebrow: 'Personal portfolio · 2026',
     role: 'Technology. Interaction. Digital Experiences.',
     intro: 'I study computer science and design digital experiences, bringing analytical thinking together with care for people.',
-    scroll: 'Explore my work',
+    scroll: 'Discover my journey',
     about: 'A path between technology and communication',
     aboutText: 'I study Digital Communication and Computer Science at the University of Milan. I’m interested in the meeting point between software, design and real needs: turning complex problems into clear, intuitive tools',
     education: 'Education',
@@ -181,7 +179,7 @@ function App() {
               href={`${import.meta.env.BASE_URL}projects/Alessandro_Lucchesi_CV.pdf`}
               download="Alessandro_Lucchesi_CV.pdf"
             >
-              Download CV
+              <strong>Download CV</strong>
               <span>↓</span>
             </a>
           </div>
