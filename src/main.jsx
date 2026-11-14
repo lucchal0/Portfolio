@@ -84,7 +84,7 @@ const geometryRunVideo = `${import.meta.env.BASE_URL}projects/geometry-run.mp4`;
 const geometryRunGithub = 'https://github.com/lucchal0/Geometry-Run';
 const mlAppGithub = 'https://github.com/lucchal0/ML-APP';
 const sn4mGithub = 'https://github.com/lucchal0/awc-spotify-music-community';
-const sn4mLive = 'https://sn4m.netlify.app/';
+const sn4mLive = 'https://lucchal0.github.io/awc-spotify-music-community/';
 const skillCategories = [
   {
     title: 'Linguaggi di programmazione',
