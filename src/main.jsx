@@ -71,12 +71,16 @@ const copy = {
     footer: 'Designed and developed by Alessandro Lucchesi.'
   }
 };
+
 const projectImages = [
-  '/projects/geometry-run.png',
-  '/projects/ml-app.webp',
-  '/projects/spotify-community.png'
+  `${import.meta.env.BASE_URL}projects/geometry-run.png`,
+  `${import.meta.env.BASE_URL}projects/ml-app.webp`,
+  `${import.meta.env.BASE_URL}projects/spotify-community.png`
 ];
-const geometryRunVideo = '/projects/geometry-run.mp4';
+
+const geometryRunVideo = `${import.meta.env.BASE_URL}projects/geometry-run.mp4`;
+
+
 const geometryRunGithub = 'https://github.com/lucchal0/Geometry-Run';
 const mlAppGithub = 'https://github.com/lucchal0/ML-APP';
 const sn4mGithub = 'https://github.com/lucchal0/awc-spotify-music-community';
@@ -159,7 +163,11 @@ function App() {
           </a>
         </div>
         <figure className="hero-art hero-photo" aria-label="Foto di Alessandro Lucchesi">
-          <img className="hero-photo-image" src="public/projects/profile.jpg" alt="Alessandro Lucchesi" />
+          <img
+            className="hero-photo-image"
+            src={`${import.meta.env.BASE_URL}projects/profile.jpg`}
+            alt="Alessandro Lucchesi"
+          />
         </figure>
       </section>
       <section id="about" className="section about">
@@ -170,7 +178,7 @@ function App() {
             <p className="body-copy">{t.aboutText}</p>
             <a
               className="cv-download"
-              href="/cv-alessandro-lucchesi.pdf"
+              href={`${import.meta.env.BASE_URL}projects/Alessandro_Lucchesi_CV.pdf`}
               download="Alessandro_Lucchesi_CV.pdf"
             >
               Download CV
