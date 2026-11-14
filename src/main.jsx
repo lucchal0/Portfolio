@@ -168,6 +168,14 @@ function App() {
           <div>
             <h2>{t.about}</h2>
             <p className="body-copy">{t.aboutText}</p>
+            <a
+              className="cv-download"
+              href="/cv-alessandro-lucchesi.pdf"
+              download="Alessandro_Lucchesi_CV.pdf"
+            >
+              Download CV
+              <span>↓</span>
+            </a>
           </div>
           <div className="profile-block">
             <img src={avatar} alt="Ritratto provvisorio di Alessandro Lucchesi" />
